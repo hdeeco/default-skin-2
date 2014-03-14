@@ -2426,7 +2426,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
     <widget name="config" position="150,440" scrollbarMode="showOnDemand" size="700,187" transparent="1" zPosition="1" />
     <ePixmap alphatest="blend" pixmap="Vali.HD.flex/red.png" position="100,643" size="30,30" />
     <widget font="Regular;18" name="languagetext" position="145,645" size="500,26" transparent="1" />
-    <widget alphatest="on" name="rc" pixmaps="skin_default/rc0.png,skin_default/rc1.png,skin_default/rc2.png" position="920,110" size="154,500" zPosition="10" />
+    <widget alphatest="on" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="920,110" size="154,500" zPosition="10" />
     <ePixmap alphatest="on" pixmap="Vali.HD.flex/bg.png" position="0,0" size="1280,720" zPosition="-1" />
     <widget alphatest="on" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="on" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -2445,8 +2445,8 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
     <ePixmap alphatest="blend" pixmap="Vali.HD.flex/red.png" position="100,643" size="30,30" />
     <widget font="Regular;18" name="languagetext" position="145,645" size="500,26" transparent="1" />
     <widget name="config" position="150,400" scrollbarMode="showOnDemand" size="700,200" transparent="1" zPosition="1" />
-    <widget alphatest="on" name="wizard" pixmap="skin_default/wizard.png" position="140,150" size="110,174" transparent="1" zPosition="10" />
-    <widget alphatest="on" name="rc" pixmaps="skin_default/rc0.png,skin_default/rc1.png,skin_default/rc2.png" position="920,110" size="154,500" transparent="1" zPosition="10" />
+    <widget alphatest="on" name="wizard" pixmap="Vali.HD.flex/wizard.png" position="140,150" size="110,174" transparent="1" zPosition="10" />
+    <widget alphatest="on" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="920,110" size="154,500" transparent="1" zPosition="10" />
     <ePixmap alphatest="on" pixmap="Vali.HD.flex/bg.png" position="0,0" size="1280,720" zPosition="-1" />
     <widget alphatest="on" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" transparent="1" zPosition="11" />
     <widget alphatest="on" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" transparent="1" zPosition="11" />
@@ -2464,8 +2464,8 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
     <ePixmap alphatest="blend" pixmap="Vali.HD.flex/red.png" position="100,643" size="30,30" />
     <widget font="Regular;18" name="languagetext" position="145,645" size="500,26" transparent="1" />
     <widget name="config" position="150,400" scrollbarMode="showOnDemand" size="700,200" transparent="1" zPosition="1" />
-    <widget alphatest="on" name="wizard" pixmap="skin_default/wizard.png" position="140,150" size="110,174" transparent="1" zPosition="10" />
-    <widget alphatest="on" name="rc" pixmaps="skin_default/rc0.png,skin_default/rc1.png,skin_default/rc2.png" position="920,110" size="154,500" transparent="1" zPosition="10" />
+    <widget alphatest="on" name="wizard" pixmap="Vali.HD.flex/wizard.png" position="140,150" size="110,174" transparent="1" zPosition="10" />
+    <widget alphatest="on" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="920,110" size="154,500" transparent="1" zPosition="10" />
     <ePixmap alphatest="on" pixmap="Vali.HD.flex/bg.png" position="0,0" size="1280,720" zPosition="-1" />
     <widget alphatest="on" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" transparent="1" zPosition="11" />
     <widget alphatest="on" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" transparent="1" zPosition="11" />
@@ -2489,8 +2489,8 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
 				}
 			</convert>
     </widget>
-    <widget alphatest="on" name="wizard" pixmap="skin_default/wizard.png" position="140,150" size="110,174" zPosition="10" />
-    <widget alphatest="on" name="rc" pixmaps="skin_default/rc0.png,skin_default/rc1.png,skin_default/rc2.png" position="920,110" size="154,500" zPosition="10" />
+    <widget alphatest="on" name="wizard" pixmap="Vali.HD.flex/wizard.png" position="140,150" size="110,174" zPosition="10" />
+    <widget alphatest="on" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="920,110" size="154,500" zPosition="10" />
     <ePixmap alphatest="on" pixmap="Vali.HD.flex/bg.png" position="0,0" size="1280,720" zPosition="-1" />
     <widget alphatest="on" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="on" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -2504,7 +2504,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
     </widget>
 	<widget name="list" position="250,100" scrollbarMode="showOnDemand" size="450,380" />
     <widget font="Regular;25" foregroundColor="yellow" halign="right" name="long_key" position="520,520" size="350,50" />
-    <widget alphatest="on" name="rc" pixmaps="skin_default/rc0.png,skin_default/rc1.png,skin_default/rc2.png" position="920,110" size="154,500" zPosition="10" />
+    <widget alphatest="on" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="920,110" size="154,500" zPosition="10" />
     <ePixmap alphatest="on" pixmap="Vali.HD.flex/bg.png" position="0,0" size="1280,720" zPosition="-1" />
     <widget alphatest="on" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="on" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
@@ -2524,13 +2524,33 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
     <widget name="config" position="210,430" scrollbarMode="showOnDemand" size="620,180" transparent="1" zPosition="1" />
     <ePixmap alphatest="blend" pixmap="Vali.HD.flex/red.png" position="100,643" size="30,30" />
     <widget font="Regular;18" name="languagetext" position="145,645" size="500,26" transparent="1" />
-    <widget alphatest="on" name="wizard" pixmap="skin_default/wizard.png" position="205,120" size="110,174" zPosition="10" />
-    <widget alphatest="on" name="rc" pixmaps="skin_default/rc0.png,skin_default/rc1.png,skin_default/rc2.png" position="870,100" size="154,500" zPosition="10" />
+    <widget alphatest="on" name="wizard" pixmap="Vali.HD.flex/wizard.png" position="205,120" size="110,174" zPosition="10" />
+    <widget alphatest="on" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="870,100" size="154,500" zPosition="10" />
     <widget alphatest="on" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="on" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="on" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
     <widget alphatest="on" name="arrowup2" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
   </screen>
+  <screen flags="wfNoBorder" name="StartWizard" position="0,0" size="1280,720" title="Welcome...">
+    <widget backgroundColor="secondBG" font="Regular;24" position="70,35" render="Label" size="850,50" source="Title" transparent="1" valign="center" zPosition="1" />
+    <widget backgroundColor="secondBG" font="Regular;20" halign="right" position="940,35" render="Label" size="270,50" source="global.CurrentTime" transparent="1" valign="center" zPosition="1">
+      <convert type="valioClockToText">DateTime</convert>
+    </widget>
+	<ePixmap alphatest="on" pixmap="Vali.HD.flex/bg.png" position="0,0" size="1280,720" zPosition="-1" />
+    <widget font="Regular;22" name="text" position="355,100" size="462,330" />
+    <widget position="210,430" render="Listbox" scrollbarMode="showOnDemand" size="620,180" source="list">
+      <convert type="StringList" />
+    </widget>
+    <widget name="config" position="210,430" scrollbarMode="showOnDemand" size="620,180" transparent="1" zPosition="1" />
+    <ePixmap alphatest="blend" pixmap="Vali.HD.flex/red.png" position="100,643" size="30,30" />
+    <widget font="Regular;18" name="languagetext" position="145,645" size="500,26" transparent="1" />
+    <widget alphatest="on" name="wizard" pixmap="Vali.HD.flex/wizard.png" position="205,120" size="110,174" zPosition="10" />
+    <widget alphatest="on" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="870,100" size="154,500" zPosition="10" />
+    <widget alphatest="on" name="arrowdown" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
+    <widget alphatest="on" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="-100,-100" size="37,70" zPosition="11" />
+    <widget alphatest="on" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
+    <widget alphatest="on" name="arrowup2" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" zPosition="11" />
+  </screen>  
   <screen flags="wfNoBorder" name="VideoWizard" position="0,0" size="1280,720" title="Welcome...">
     <widget backgroundColor="secondBG" font="Regular;24" position="70,35" render="Label" size="850,50" source="Title" transparent="1" valign="center" zPosition="1" />
     <widget backgroundColor="secondBG" font="Regular;20" halign="right" position="940,35" render="Label" size="270,50" source="global.CurrentTime" transparent="1" valign="center" zPosition="1">
@@ -2542,11 +2562,11 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
       <convert type="StringList" />
     </widget>
     <widget name="config" position="190,380" scrollbarMode="showOnDemand" size="600,200" transparent="1" zPosition="1" />
-    <widget alphatest="on" name="wizard" pixmap="skin_default/wizard.png" position="210,110" size="110,174" transparent="1" zPosition="10" />
+    <widget alphatest="on" name="wizard" pixmap="Vali.HD.flex/wizard.png" position="210,110" size="110,174" transparent="1" zPosition="10" />
 	<ePixmap alphatest="blend" pixmap="Vali.HD.flex/red.png" position="100,643" size="30,30" />
     <widget font="Regular;18" name="languagetext" position="145,645" size="500,26" transparent="1" />
-    <widget alphatest="on" name="portpic" pixmap="%s" position="50,300" size="150,150" transparent="1" zPosition="10" />
-    <widget alphatest="on" name="rc" pixmaps="skin_default/rc0.png,skin_default/rc1.png,skin_default/rc2.png" position="885,105" size="154,500" transparent="1" zPosition="10" />
+    <widget alphatest="on" name="portpic" position="50,300" size="150,150" transparent="1" zPosition="10" />
+    <widget alphatest="on" name="rc" pixmaps="skin_default/rc.png,skin_default/rcold.png" position="885,105" size="154,500" transparent="1" zPosition="10" />
     <widget alphatest="on" name="arrowdown" pixmap="skin_default/arrowdown.png" position="0,0" size="37,70" transparent="1" zPosition="11" />
     <widget alphatest="on" name="arrowdown2" pixmap="skin_default/arrowdown.png" position="0,0" size="37,70" transparent="1" zPosition="11" />
     <widget alphatest="on" name="arrowup" pixmap="skin_default/arrowup.png" position="-100,-100" size="37,70" transparent="1" zPosition="11" />
