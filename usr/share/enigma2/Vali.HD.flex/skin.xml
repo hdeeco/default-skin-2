@@ -165,15 +165,15 @@
     </widget>
     <widget backgroundColor="secondBG" font="Regular;19" foregroundColor="grey" position="90,198" render="valioPosition" size="90,25" source="session.CurrentService" transparent="1" zPosition="5"/>
     
-	<eLabel text="AGC:" backgroundColor="background" font="Regular;19" foregroundColor="orange" position="190,198" render="Label" size="90,22" source="session.FrontendStatus" transparent="1" zPosition="1" />
+	<eLabel text="AGC:" backgroundColor="background" font="Regular;19" foregroundColor="orange" position="190,198" size="90,22" transparent="1" zPosition="1" />
 	<widget backgroundColor="background" font="Regular;19" foregroundColor="grey" position="240,198" render="Label" size="90,22" source="session.FrontendStatus" transparent="1" zPosition="1">
 		<convert type="FrontendInfo">AGC</convert>
 	</widget>
-	<eLabel text="SNR:" backgroundColor="background" font="Regular;19" foregroundColor="orange" position="320,198" render="Label" size="90,22" source="session.FrontendStatus" transparent="1" zPosition="1" />
+	<eLabel text="SNR:" backgroundColor="background" font="Regular;19" foregroundColor="orange" position="320,198" size="90,22" transparent="1" zPosition="1" />
 	<widget backgroundColor="background" font="Regular;19" foregroundColor="grey" position="370,198" render="Label" size="60,22" source="session.FrontendStatus" transparent="1" zPosition="1">
 		<convert type="FrontendInfo">SNR</convert>
 	</widget>
-	<eLabel text="BER:" backgroundColor="background" font="Regular;19" foregroundColor="orange" position="432,198" render="Label" size="90,22" source="session.FrontendStatus" transparent="1" zPosition="1" />	
+	<eLabel text="BER:" backgroundColor="background" font="Regular;19" foregroundColor="orange" position="432,198" size="90,22" transparent="1" zPosition="1" />	
 	<widget backgroundColor="background" font="Regular;19" foregroundColor="orange" position="482,198" render="Label" size="55,22" source="session.FrontendStatus" transparent="1" zPosition="1">
 		<convert type="FrontendInfo">BER</convert>
 	</widget>
@@ -1325,9 +1325,9 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
     <widget backgroundColor="rds_text_bg" font="Regular;24" halign="right" name="RtpText" noWrap="1" position="100,650" size="1080,30" />
   </screen>
   <screen name="VirtualKeyBoard" position="center,center" size="560,350" title="Virtual KeyBoard" zPosition="99">
-    <ePixmap alphatest="on" pixmap="skin_default/vkey_text.png" position="9,35" size="542,52" zPosition="-4" />
+    <ePixmap alphatest="on" pixmap="skin_default/buttons/vkey_text.png" position="9,35" size="542,52" zPosition="-4" />
     <widget font="Regular;18" name="header" noWrap="1" position="10,5" size="500,24" transparent="1" />
-    <widget font="Regular;26" halign="right" name="text" noWrap="1" position="12,42" size="536,34" transparent="1" valign="venter" />
+    <widget font="Regular;26" halign="right" name="text" noWrap="1" position="12,42" size="536,34" transparent="1" valign="center" />
     <widget name="list" position="10,100" selectionDisabled="1" size="540,225" transparent="1" />
   </screen>
   <!--Setup ########## -->
@@ -1489,6 +1489,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
     <widget font="Regular;19" foregroundColor="grey" halign="right" position="90,500" render="Label" size="230,25" source="DNS2text" transparent="1" valign="center" zPosition="1" />
     <widget font="Regular;18" halign="right" position="90,475" render="Label" size="230,25" source="DNS1" transparent="1" valign="center" zPosition="1" />
     <widget font="Regular;18" halign="right" position="90,525" render="Label" size="230,25" source="DNS2" transparent="1" valign="center" zPosition="1" />
+    <widget font="Regular;20" position="520,340" size="690,25" name="HelpText" foregroundColor="yellow" />
     <widget font="Regular;20" position="520,400" render="Label" size="690,25" source="introduction" />
     <widget font="Regular;20" foregroundColor="grey" halign="right" position="520,430" render="Label" size="200,25" source="IPtext" zPosition="1" />
     <widget font="Regular;20" foregroundColor="grey" halign="right" position="520,460" render="Label" size="200,25" source="Netmasktext" zPosition="1" />
@@ -1505,6 +1506,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
     <ePixmap alphatest="blend" pixmap="Vali.HD.flex/blue.png" position="970,643" size="30,30" />
     <widget backgroundColor="secondBG" font="Regular;22" halign="left" position="145,645" render="Label" size="220,26" source="key_red" transparent="1" zPosition="1" />
     <widget backgroundColor="secondBG" font="Regular;22" halign="left" position="1015,645" render="Label" size="220,26" source="key_blue" transparent="1" zPosition="1" />
+    <widget name="HelpWindow" position="0,0" size="1,1" zPosition="10" transparent="1" alphatest="on" />
   </screen>
   <screen flags="wfNoBorder" name="NameserverSetup" position="0,0" size="1280,720" title="Nameserver Setup">
     <ePixmap alphatest="on" pixmap="Vali.HD.flex/bg.png" position="0,0" size="1280,720" zPosition="-1" />
