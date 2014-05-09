@@ -2004,11 +2004,7 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
     <ePixmap alphatest="on" pixmap="Vali.HD.flex/bg.png" position="0,0" size="1280,720" zPosition="-1" />
     <ePixmap alphatest="on" pixmap="skin_default/icons/dish.png" position="180,165" size="130,160" />
     <widget backgroundColor="secondBG" font="Regular;24" position="70,35" render="Label" size="850,50" source="Title" transparent="1" valign="center" zPosition="1" />
-    <widget backgroundColor="background" itemHeight="30" name="list" position="570,120" size="629,180" transparent="1" />
-    <widget backgroundColor="red" font="Regular;21" halign="center" name="red" position="520,330" size="170,100" valign="center" />
-    <widget backgroundColor="green" font="Regular;21" halign="center" name="green" position="690,330" size="170,100" valign="center" />
-    <widget backgroundColor="yellow" font="Regular;21" halign="center" name="yellow" position="860,330" size="170,100" valign="center" />
-    <widget backgroundColor="blue" font="Regular;21" halign="center" name="blue" position="1030,330" size="170,100" valign="center" />
+    <widget backgroundColor="background" itemHeight="30" name="list" position="570,120" size="629,230" transparent="1" />
     <widget backgroundColor="background" font="Regular;21" halign="center" name="snr_db" position="660,455" size="200,25" transparent="1" valign="center" />
     <eLabel backgroundColor="background" font="Regular;21" position="570,490" size="80,25" text="SNR:" transparent="1" />
     <widget borderWidth="1" name="snr_bar" position="660,490" size="200,25" transparent="1" />
@@ -2024,6 +2020,14 @@ self.instance.move(ePoint((1280-wsizex)/2, (720-wsizey)/2))
     <widget backgroundColor="background" font="Regular;21" name="symbolrate_value" position="256,510" size="150,25" transparent="1" />
     <eLabel backgroundColor="background" font="Regular;21" position="100,551" size="150,25" text="FEC:" transparent="1" />
     <widget backgroundColor="background" font="Regular;21" name="fec_value" position="256,551" size="150,25" transparent="1" />
+    <ePixmap alphatest="blend" pixmap="Vali.HD.flex/red.png" position="100,643" size="30,30" />
+    <ePixmap alphatest="blend" pixmap="Vali.HD.flex/green.png" position="390,643" size="30,30" />
+    <ePixmap alphatest="blend" pixmap="Vali.HD.flex/yellow.png" position="680,643" size="30,30" />
+    <ePixmap alphatest="blend" pixmap="Vali.HD.flex/blue.png" position="970,643" size="30,30" />    
+    <widget backgroundColor="secondBG" font="Regular;22" halign="left" render="Label" source="key_red" position="145,645" size="220,26" transparent="1" zPosition="1" />
+    <widget backgroundColor="secondBG" font="Regular;22" halign="left" render="Label" source="key_green" position="435,645" size="220,26" transparent="1" zPosition="1" />
+    <widget backgroundColor="secondBG" font="Regular;22" halign="left" render="Label" source="key_yellow" position="725,645" size="220,26" transparent="1" zPosition="1" />
+    <widget backgroundColor="secondBG" font="Regular;22" halign="left" render="Label" source="key_blue" position="1015,645" size="220,26" transparent="1" zPosition="1" />    
   </screen>
   <screen flags="wfNoBorder" name="Satfinder" position="0,0" size="1280,720" title="Satfinder">
     <ePixmap alphatest="on" pixmap="Vali.HD.flex/bg.png" position="0,0" size="1280,720" zPosition="-1" />
